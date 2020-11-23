@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/all.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="stylesheet" href="tell.css"/>
+<link rel="stylesheet" href="https://rawcdn.githack.com/stonny71/lib/557625ee6ab40740bad98c9187a718742a2abebe/telly.css"/>
+<style type="text/css">
+
+
+
+header, footer, .art{
+background:#012731;
+color:#E47698;
+}
+
+
+header h1{
+border-bottom:2px solid #F57F17;
+display:inline-block;
+}
+.fa {color:#E47698; display:block;}
+.fa {
+color:#B97692;
+}
+.c{color:#E47698;}
+
+article .fa{
+display:inline;
+}
+
+textarea {
+padding:8px;
+background:#000;
+color:#FF80AB;
+border:none;
+width:90%;
+border-radius:2px;
+}
+
+#nav a{
+color:#FFD54F;
+}
+.tel{
+color:#8BC34A;
+}
+mark{
+color:orange;
+background:transparent;
+}
+.fa-arrow-up{
+position:fixed;
+top:70%;
+right:0;
+padding:10px;
+opacity:.5;
+}
+.fa-arrow-down{
+position:fixed;
+top:85%;
+right:0;
+opacity:.5;
+padding:10px;
+}
+</style>
+<title>TELLY</title>
+</head>
+<body>
+<section id="body"  >
+
+<header class="align-center card padding-bottom" >
+<h1 class="h1" >TELLY</h1>
+<p class="h3 fa light padding" >A light typographical css framework</p>
+<button  style="border:1px solid  #e47698"  ><a href="#doc" class="c"  >Get Started</a></button>
+</header>
+<div class="padding-larger card margin" >
+<div class="padding-larger" >
+<div>
+<center>
+<h1 style="font-size:4em"  class="h1 fa c fa-book-open margin-none padding-none" ></h1>
+
+<h2 class="fa h3 margin-none" >Simple</h2>
+<p class="light" >It has friendly class names which makes it super easy to learn. you can master it under 5mins !!!</p>
+</center>
+</div>
+<hr>
+</div>
+
+<div class="padding-larger" >
+<div>
+<center>
+<h1 style="font-size:4em"  class="h1 fa c fa-bolt margin-none padding-none" ></h1>
+
+<h2 class="fa h3 margin-none" >Fast</h2>
+<p class="light" >The CSS is super light, so you won’t have to worry about web page load times.</p>
+</center>
+</div>
+</div>
+</div>
+
+<section class="padding-larger" id="doc"  >
+<center>
+<h3 class="fa h3" >Start Building</h3>
+
+<button class="margin-top" ><a href="https://raw.githubusercontent.com/stonny71/lib/main/telly.css" class="color-white"  >Download</a></button>
+<button><a href="https://github.com/stonny71/lib/blob/main/telly.css" class="color-white" >Github</a></button>
+<a href="#help" ><button onclick="showDoc()">Documentation</button></a>
+</center>
+</section>
+
+<footer class="padding-larger light"  >
+<center>
+<div>
+Developed by <a href="Stonny" >stonny</a><br>
+<div class="padding" >
+Telly is an open source framework<br>Feel free to edit and customize to your own taste.
+</div><br>
+<ul class="ul " >
+Follow Me
+<li><a href="https://github.com/stonny71" class="color-blue"  >Github</a></li>
+<li><a href="https://www.sololearn.com/Profile/5130756/?ref=app" class="color-yellow" >Sololearn</a></li>
+
+</ul>
+</div>
+
+
+<h5>You may also like</h5>
+<a href="https://raw.githack.com/stonny71/lib/main/quickalert.js" ><h4 style="h4 font-family:monospace;" class="color-pink" >quickalert.js</h4></a>
+A light JavaScript library for displaying quick alerts, pop-up, or modal.
+</center>
+</footer>
+</body>
+</section>
+
+<!--articllee-->
+<article id="help"  class="black light hide" >
+<div class="art padding-large " >
+<span onclick="BACK()"  class="fa fa-arrow-left h5" ></span>
+<span style="margin-left:25%" class="h5"  >Documentation</span>
+</div>
+<div class="light small padding" >
+<p>To start using Telly in your web project, just add a link to "telly.css" from your web pages</p>
+<textarea style="height:100px"   class="small" >
+<link rel="stylesheet" href="https://rawcdn.githack.com/stonny71/lib/557625ee6ab40740bad98c9187a718742a2abebe/telly.css"/>
+</textarea>
+Or Download from <a href="https://raw.githubusercontent.com/stonny71/lib/main/telly.css" >CDN</a>
+</div>
+
+<div id="nav"  class="art padding" >Quick Navigation</div>
+<ul id="nav"  class="ul card margin art" >
+
+<a href="#colors" ><li>
+Colors</li></a>
+
+<a href="#list" ><li>
+List</li></a>
+<a href="#button" ><li>
+Button</li></a>
+<a href="#table" ><li>
+Table</li>
+</a>
+<a href="#typography" ><li>
+Typography</li>
+</a>
+<a href="#cheat" ><li>
+Cheatsheet</li>
+</a>
+</ul>
+<br>
+<!--colorss-->
+
+<section id="colors"  class=" card margin padding" >
+<h1 class="h1 tel" >Colors</h1>
+<p >The major colors to choose from pink
+red,
+orange,
+yellow,
+green,
+blue,
+indigo,
+purple,
+cyan,
+teal,
+brown,
+grey,
+blue-grey,
+black,
+white</p>
+<p>
+<mark>To change background color of an element to red:</mark>
+<textarea disabled="disabled" class="small" >
+<div class="red">demo</div></textarea>
+<ul class="ul">
+<li class="pink" >pink</li>
+<li class="red" >red</li> 
+<li class="orange" >orange</li>
+<li class="yellow" >yellow</li>
+<li class="green" >green</li> 
+<li class="blue" >blue</li>
+<li class="indigo" >indigo</li>
+<li class="purple" >purple</li> 
+<li class="cyan" >cyan</li>
+<li class="teal" >teal</li>
+<li class="brown" >brown</li> 
+<li class="grey" >grey</li>
+<li class="blue-grey" >blue-grey</li>
+<li class="black" >black</li> 
+<li class="white" >white</li>
+
+ </ul>
+
+</p>
+<p>
+<mark>To change text color of an element to red:</mark>
+<textarea disabled="disabled"  class="small" >
+<div class="color-red">demo</div></textarea>
+</p>
+</section>
+
+<!--comment-->
+<section id="list" class="margin padding card" >
+<h1 class="h1 tel" >List</h1>
+Usage:
+<textarea style="height:90px"  disabled="disabled"  class="small" >
+<ul class="ul" >
+<li>item 1</li>
+<li>item 2</li>
+<li>item 3</li>
+</ul></textarea>
+<div class="white" >
+<ul class="ul" >
+<li>item 1</li>
+<li>item 2</li>
+<li>item 3</li>
+</ul>
+</div>
+
+</section>
+<br>
+<section id="button" class="margin padding card" >
+<h1 class="h1 tel" >Button</h1>
+Usage:
+<textarea style="30px"  disabled="disabled"  class="small" >
+<button>demo</button></textarea>
+
+To make a <button class="green" >green button</button>
+<textarea style="30px"  disabled="disabled"  class="small" >
+<button class="green" >demo</button>
+</textarea>
+</section>
+
+<!--tabelllell-->
+<section id="table"  class="card margin padding" >
+<h1 class="h1 tel" >Table</h1>
+<p>Table doesn't require special class names</p>
+usage:
+<textarea style="height:470px"  disabled="disabled"  class="small" >
+<table>
+<tr>
+<th>name</th>
+<th>age</th>
+<th>city</th>
+<th>gender</th>
+</tr>
+<tr>
+<td>Stonny</td>
+<td>20</td>
+<td>Kensas</td>
+<td>M</td>
+</tr>
+<tr>
+<td>Rhea</td>
+<td>18</td>
+<td>New Orleans</td>
+<td>F</td>
+</tr>
+<tr>
+<td>Wills</td>
+<td>40</td>
+<td>London</td>
+<td>M</td>
+</tr>
+</table></textarea>
+
+<div class="white" >
+<table>
+<tr>
+<th>name</th>
+<th>age</th>
+<th>city</th>
+<th>gender</th>
+</tr>
+<tr>
+<td>Stonny</td>
+<td>20</td>
+<td>Kensas</td>
+<td>M</td>
+</tr>
+<tr>
+<td>Rhea</td>
+<td>18</td>
+<td>New Orleans</td>
+<td>F</td>
+</tr>
+<tr>
+<td>Wills</td>
+<td>40</td>
+<td>London</td>
+<td>M</td>
+</tr>
+</table>
+
+</div>
+
+<a href="#help" ><div class=" h1 fa fa-arrow-up" ></div>
+</a>
+<a href="#cheat" >
+<div class=" h1 fa fa-arrow-down" ></div>
+</a>
+</section>
+
+
+<section id="typography"  class="margin-top padding" >
+<h1 class="tel h2" >Typography</h1>
+
+<!--h1-->
+<section class=" padding card" >
+<h3 class="h4 color-orange" >Heading</h3>
+from h1 to h6<br>
+usage:
+<textarea>
+<h1 class="h1" >demo</h1>
+</textarea>
+<h1 class="h1" >h1</h1>
+<h1 class="h2" >h2</h1>
+<h1 class="h3" >h3</h1>
+<h1 class="h4" >h4</h1>
+<h1 class="h5" >h5</h1>
+<h1 class="h6" >h6</h1>
+</section>
+<br>
+
+<!--vis-->
+<div class="padding card" >
+<h3 class="h4 color-orange" >Visibility and display</h3>
+<p>sets the visibility and display property</p>
+usage:<br>
+<textarea style="height:150px"   disabled="disabled" class="small" >
+<div class="visible">demo</div>
+<div class="invisible">demo</div>
+<div class="hide">demo</div>
+<div class="show">demo</div>
+<div class="block">demo</div>
+<div class="inline">demo</div>
+<div class="inline-block">demo</div>
+</textarea>
+<mark>visible</mark> sets the visibility to visibe<br>
+<mark>invisible</mark> sets the visibility to hidden<br>
+<mark>hide</mark> sets the display to none<br>
+<mark>show</mark> sets the display to block<br>
+<mark>inline-block</mark> sets the display to inline-block<br>
+<mark>block</mark> sets the display to block<br>
+<mark>inline</mark> sets the display to inline<br>
+</div>
+<br>
+
+
+
+<!--float-->
+<div class="padding card " >
+<h3 class="h4 color-orange" >float</h3>
+<p>This adds css float properties to an element</p>
+usage:<br>
+<textarea style="height:60px"   disabled="disabled" class="small" >
+<div class="float-left">demo</div>
+<div class="float-right">demo</div>
+</textarea>
+</div>
+<br>
+
+
+
+<!--align-->
+<div class="padding card " >
+<h3 class="h4 color-orange" >text-align</h3>
+<p>This adds css text alignment</p>
+usage:<br>
+<textarea style="height:80px"   disabled="disabled" class="small" >
+<div class="align-left">demo</div>
+<div class="align-center">demo</div>
+<div class="align-right">demo</div>
+</textarea>
+</div>
+<br>
+
+
+<!--card-->
+<div class="padding card " >
+<h3 class="h4 color-orange" >card</h3>
+<p>This adds shadows to the edges of an element</p>
+usage:<br>
+<textarea   disabled="disabled" class="small" >
+<div class="card">demo</div></textarea>
+
+<div class="white" style="height:150px" class="padding"  >
+<br>
+<div style="height:70px;width:100px" class="margin  card padding"  >card
+</div>
+<br>
+</div>
+</div>
+<br>
+
+<!--rounded egdes-->
+<div class="padding card " >
+<h3 class="h4 color-orange" >round</h3>
+<p>This adds round edges to an element</p>
+usage:<br>
+<textarea   disabled="disabled" class="small" >
+<div class="round">demo</div></textarea>
+</div>
+<br>
+
+<!--fontsizd-->
+<div class="padding card " >
+<h3 class="h4 color-orange" >font size</h3>
+<p>These are quick styles for font sizes</p>
+usage:<br>
+<textarea style="height:70px"  disabled="disabled" class="small" >
+<div class="small">demo</div>
+<div class="large">demo</div>
+<div class="larger">demo</div></textarea>
+</div>
+<br>
+
+
+<!--bold-->
+<div class="padding card " >
+<h3 class="h4 color-orange" >font weight</h3>
+<p>These are quick styles for font weight</p>
+usage:<br>
+<textarea style="height:70px"  disabled="disabled" class="small" >
+<div class="light">demo</div>
+<div class="bold">demo</div>
+<div class="bolder">demo</div></textarea>
+</div>
+<br>
+
+<div class="padding card " >
+<h3 class="h4 color-orange" >padding</h3>
+usage:<br>
+<textarea disabled="disabled" class="small" >
+<div class="padding">demo</div></textarea>
+<p>Padding classes are 8 in number</p>
+<ul class="ul" >
+<li><mark>padding</mark> gives 8px Padding to an element</li>
+<li><mark>padding-top</mark> gives 8px top padding to an element</li>
+<li><mark>padding-bottom</mark> gives 8px bottom padding to an element</li>
+<li><mark>padding-left</mark> gives 8px left padding to an element</li>
+<li><mark>padding-right</mark> gives 8px right padding to an element</li>
+<li><mark>padding-small</mark> gives 8px padding to an element</li>
+<li><mark>padding-large</mark> gives  top and bottom padding of 16px with left and right Padding of 8px</li>
+<li><mark>padding-larger</mark> gives  top and bottom padding of 32px with left and right Padding of 8px</li>
+<li>
+<mark>padding-none</mark>
+sets the padding to 0px
+</li>
+</ul>
+</div>
+
+<!--margin-->
+<div class="padding card" >
+<h3 class="h4 color-orange" >margin</h3>
+usage:<br>
+<textarea disabled="disabled" class="small" >
+<div class="margin">demo</div></textarea>
+<p>margin classes are 9 in number</p>
+<ul class="ul" >
+<li><mark>margin</mark> gives 8px margin to an element</li>
+<li><mark>margin-top</mark> gives 8px top margin to an element</li>
+<li><mark>margin-bottom</mark> gives 8px bottom margin to an element</li>
+<li><mark>margin-left</mark> gives 8px left margin to an element</li>
+<li><mark>margin-right</mark> gives 8px right margin to an element</li>
+<li><mark>margin-small</mark> gives 8px margin to an element</li>
+<li><mark class="" >margin-large</mark> gives  top and bottom margin of 16px with left and right margin of 8px</li>
+<li><mark>margin-larger</mark> gives  top and bottom margin of 32px with left and right margin of 8px</li>
+<li><mark>margin-none</mark> Sets the margin to 0px</li>
+</ul>
+</div>
+</section>
+
+
+<section id="cheat"  class="card padding nargin small" >
+<h1 class="h1 tel" >Cheatsheet</h1>
+<ul class="ul color-yellow" >
+<li>color-red (font color)</li>
+<li>red (background-color)</li>
+<li>small, large, larger (font-size)</li>
+<li>light, bold, bolder (font weight)</li>
+<li>hidden (Visibility:hidden)</li>
+<li>visible (visibility: visible)</li>
+<li>hide (display:none)</li>
+<li>show (display:block)</li>
+<li>block (display:block)</li>
+<li>inline (display:inline)</li>
+<li>inline-block (display: inline-block)</li>
+<li>card </li>
+
+<li>round (border-radius:4px)</li>
+<li>h1 to h6</li>
+<li>ul</li>
+</ul>
+</section>
+
+<script type="text/javascript">
+var home=document.getElementById("body");
+
+var main = document.getElementById("help");
+
+function trigger(){
+ help.classList.toggle("hide");
+ home.classList.toggle("hide");
+ }
+ 
+ 
+ function showDoc(){ 
+ trigger()
+ }
+ function BACK(){ 
+ trigger()
+}
+ 
+</script>
+</html>
